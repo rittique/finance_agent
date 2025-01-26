@@ -12,10 +12,8 @@ agent = Agent(
         analyst_recommendations=True,
         stock_fundamentals = True
     )],
-    show_tool_calls=True,
     markdown=True,
-    instructions=["Use tables to display data."],
-    debug_mode=True
+    instructions=["Use tables to display data."]
     )
 
 agent.print_response("""
